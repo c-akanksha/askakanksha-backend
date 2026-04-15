@@ -19,11 +19,11 @@ def get_ai_response(question: str):
                 "role": "user",
                 "content": f"""
                     Always return response in JSON format:
-                    {
+                    {{
                       "type": "text | list | cards | sections",
                       "title": "optional",
                       "data": ...
-                    }
+                    }}
                     Rules:
                     - Use "cards" for projects
                     - Use "list" for skills
