@@ -15,8 +15,24 @@ def get_ai_response(question: str):
         model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": system_prompt},
-            {"role": "user", "content": question}
-        ]
+            {
+                "role": "user",
+                "content": f"""
+                    Always return response in JSON format:
+                    {
+                      "type": "text | list | cards | sections",
+                      "title": "optional",
+                      "data": ...
+                    }
+                    Rules:
+                    - Use "cards" for projects
+                    - Use "list" for skills
+                    - Use "sections" for explanations
+                    - Keep responses concise
+                    Question: {question}
+                    """
+            }
+        ],
     )
 
     return response.choices[0].message.content
