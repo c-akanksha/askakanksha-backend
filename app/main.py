@@ -24,6 +24,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+def home():
+    return {"message": "AskAkanksha is up and running!"}
+
 app.include_router(chat_router, prefix="/api")
 
 if __name__ == "__main__":
