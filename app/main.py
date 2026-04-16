@@ -13,7 +13,7 @@ origins = [
     "http://127.0.0.1:3000",
     # GitHub Pages
     "https://c-akanksha.github.io",
-    "https://c-akanksha.github.io/ask-akanksha",
+    "https://c-akanksha.github.io/askakanksha",
 ]
 
 app.add_middleware(
