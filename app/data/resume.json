@@ -2,8 +2,11 @@
   "personalInfo": {
     "name": "Akanksha C",
     "email": "akankshaprajwalbhat@gmail.com",
-    "location": "Udupi, Karnataka",
-    "linkedin": "linkedin.com/in/c-akanksha"
+    "location": "Bengaluru, Karnataka",
+    "linkedin": "https://linkedin.com/in/c-akanksha",
+    "github": "https://github.com/c-akanksha",
+    "resume":
+      "https://drive.google.com/file/d/1E5tcxU4raykYGl8TqAD2RJ14p8RCbnmP/view?usp=sharing"
   },
   "careerObjective": "Software Engineer with 5 years of experience in Front-End and BFF development, specializing in React.js, TypeScript, and scalable web applications. Experienced in building performant, accessible (WCAG), and user-centric solutions using REST APIs across Node.js, BFF, and Java services. Skilled in leading projects, mentoring developers, and driving Agile delivery while actively exploring AI/ML and prompt engineering-driven solutions.",
   "education": [
@@ -141,7 +144,7 @@
     },
     {
       "name": "AskAkanksha AI",
-      "link": "https://c-akanksha.github.io/askakanksha",
+      "link": "https://c-akanksha.github.io/ask-akanksha/",
       "problemStatement": "Traditional portfolios are static and do not allow interactive exploration of a candidate's experience and projects.",
       "myRole": "Frontend developer applying prompt engineering techniques learned from DeepLearning.AI ChatGPT Prompt Engineering for Developers course.",
       "whatIDid": [
