@@ -124,21 +124,6 @@
       "keywords": ["ATS", "assessments", "workflow sync"]
     },
     {
-      "name": "AskAkanksha AI",
-      "problemStatement": "Traditional portfolios are static and do not allow interactive exploration of a candidate's experience and projects.",
-      "myRole": "Frontend developer applying prompt engineering techniques learned from DeepLearning.AI ChatGPT Prompt Engineering for Developers course.",
-      "whatIDid": [
-        "Designed conversational AI interface for portfolio exploration",
-        "Structured resume and project data for LLM-based interactions",
-        "Built interactive Q&A experience for users",
-        "Applied prompt engineering techniques like context grounding and role definition",
-        "Improved response accuracy using structured prompts"
-      ],
-      "techStack": ["React.js", "Node.js (BFF)", "OpenAI API", "Prompt Engineering"],
-      "impact": "Transformed static portfolio into an AI-powered interactive experience for natural language exploration.",
-      "keywords": ["AI portfolio", "chatbot", "prompt engineering", "OpenAI", "LLM"]
-    },
-    {
       "name": "Tom Nook Prediction Shop (ML Project)",
       "link": "https://c-akanksha.github.io/tom-nooks-prediction-shop/",
       "problemStatement": "Exploring machine learning concepts by building predictive models using structured datasets and comparing algorithm performance.",
@@ -153,6 +138,22 @@
       "techStack": ["Python", "Pandas", "NumPy", "Scikit-learn", "Machine Learning"],
       "impact": "Strengthened practical understanding of machine learning model selection, evaluation, and real-world ML workflows.",
       "keywords": ["machine learning", "python", "classification", "regression", "random forest", "decision tree", "scikit-learn"]
+    },
+    {
+      "name": "AskAkanksha AI",
+      "link": "https://c-akanksha.github.io/askakanksha",
+      "problemStatement": "Traditional portfolios are static and do not allow interactive exploration of a candidate's experience and projects.",
+      "myRole": "Frontend developer applying prompt engineering techniques learned from DeepLearning.AI ChatGPT Prompt Engineering for Developers course.",
+      "whatIDid": [
+        "Designed conversational AI interface for portfolio exploration",
+        "Structured resume and project data for LLM-based interactions",
+        "Built interactive Q&A experience for users",
+        "Applied prompt engineering techniques like context grounding and role definition",
+        "Improved response accuracy using structured prompts"
+      ],
+      "techStack": ["React.js", "Node.js (BFF)", "OpenAI API", "Prompt Engineering"],
+      "impact": "Transformed static portfolio into an AI-powered interactive experience for natural language exploration.",
+      "keywords": ["AI portfolio", "chatbot", "prompt engineering", "OpenAI", "LLM"]
     }
   ],
   "skills": {
