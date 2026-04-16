@@ -71,7 +71,6 @@
   "projects": [
     {
       "name": "Config Transport & Content Transport",
-      "projectType": "Company",
       "problemStatement": "Organizations needed reliable configuration migration across environments with minimal downtime.",
       "myRole": "Frontend and BFF developer responsible for building migration workflows and ensuring reliable configuration transport systems.",
       "whatIDid": [
@@ -86,7 +85,6 @@
     },
     {
       "name": "Interview Feedback Center",
-      "projectType": "Company",
       "problemStatement": "Recruiters needed a centralized system to manage and review candidate interview feedback efficiently.",
       "myRole": "Frontend developer responsible for building dashboard UI and reusable component system.",
       "whatIDid": [
@@ -101,7 +99,6 @@
     },
     {
       "name": "iApply (Admin Platform)",
-      "projectType": "Company",
       "problemStatement": "Candidates applying through external job platforms needed unified assessment workflows with ATS synchronization.",
       "myRole": "Full-stack developer (Frontend + BFF + Java services) responsible for implementing assessment workflows and backend APIs.",
       "whatIDid": [
@@ -117,7 +114,6 @@
     },
     {
       "name": "Marketplace Integrations (MPI)",
-      "projectType": "Company",
       "problemStatement": "Candidates needed seamless job-specific assessment experience with real-time ATS synchronization.",
       "myRole": "Frontend and BFF developer responsible for building assessment workflows and ATS integration.",
       "whatIDid": [
@@ -132,7 +128,6 @@
     },
     {
       "name": "Tom Nook Prediction Shop (ML Project)",
-      "projectType": "Personal",
       "link": "https://c-akanksha.github.io/tom-nooks-prediction-shop/",
       "problemStatement": "Exploring machine learning concepts by building predictive models using structured datasets and comparing algorithm performance.",
       "myRole": "Independent ML developer applying machine learning techniques learned from DeepLearning.AI Machine Learning Specialization.",
@@ -149,7 +144,6 @@
     },
     {
       "name": "AskAkanksha AI",
-      "projectType": "Personal",
       "link": "https://c-akanksha.github.io/askakanksha/",
       "problemStatement": "Traditional portfolios are static and do not allow interactive exploration of a candidate's experience and projects.",
       "myRole": "Frontend developer applying prompt engineering techniques learned from DeepLearning.AI ChatGPT Prompt Engineering for Developers course.",
