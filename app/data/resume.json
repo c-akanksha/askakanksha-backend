@@ -5,10 +5,9 @@
     "location": "Bengaluru, Karnataka",
     "linkedin": "https://linkedin.com/in/c-akanksha",
     "github": "https://github.com/c-akanksha",
-    "resume":
-      "https://drive.google.com/file/d/1E5tcxU4raykYGl8TqAD2RJ14p8RCbnmP/view?usp=sharing"
+    "resume": "https://drive.google.com/file/d/1E5tcxU4raykYGl8TqAD2RJ14p8RCbnmP/view?usp=sharing"
   },
-  "careerObjective": "Software Engineer with 5 years of experience in Front-End and BFF development, specializing in React.js, TypeScript, and scalable web applications. Experienced in building performant, accessible (WCAG), and user-centric solutions using REST APIs across Node.js, BFF, and Java services. Skilled in leading projects, mentoring developers, and driving Agile delivery while actively exploring AI/ML and prompt engineering-driven solutions.",
+  "careerObjective": "Software Engineer with 5 years of experience in Front-End and BFF development, specializing in React.js, TypeScript, and scalable web applications. Experienced in building performant, accessible (WCAG), and user-centric solutions using REST APIs across Node.js, BFF, and Java services. Skilled in leading projects, mentoring developers, driving Agile delivery, and actively exploring GenAI, agent engineering, prompt engineering, and AI-powered product experiences.",
   "education": [
     {
       "degree": "Bachelor of Engineering (CSE)",
@@ -36,7 +35,9 @@
         "Worked as Developer and Scrum Master ensuring Agile delivery",
         "Mentored junior developers on architecture, workflows, and best practices",
         "Collaborated with cross-functional teams for scalable product delivery",
-        "Recognized as Spotlight of the Month (December)"
+        "Recognized as Spotlight of the Month (December)",
+        "Actively explored GenAI and AI-assisted engineering workflows",
+        "Focused on improving engineering quality through reusable architecture and scalable frontend systems"
       ]
     },
     {
@@ -52,7 +53,10 @@
         "Ensured WCAG accessibility standards and localization support",
         "Managed Agile/Scrum processes and sprint execution",
         "Mentored interns and conducted code reviews",
-        "Secured 3rd place in iCIMS Hackathon 2024 for AI-powered chatbot project"
+        "Participated in performance optimization cohort to analyze API performance and improve application efficiency",
+        "Secured 3rd place in iCIMS Hackathon 2024 for AI-powered chatbot project",
+        "Built downloadable candidate feedback and AI-powered summary workflows",
+        "Worked on adaptive learning and AI-driven user experience improvements"
       ]
     },
     {
@@ -77,11 +81,28 @@
         "Led FE and BFF development for configuration migration workflows",
         "Built APIs for secure and reliable data transfer",
         "Ensured minimal downtime during deployments",
-        "Participated in architecture and system design discussions"
+        "Participated in architecture and system design discussions",
+        "Migrated projects to MUI v5 and fixed accessibility issues",
+        "Automated testing workflows using MABL"
       ],
-      "techStack": ["React.js", "Node.js", "BFF", "REST APIs", "TypeScript"],
-      "impact": "Enabled seamless configuration migrations with improved reliability and reduced deployment issues.",
-      "keywords": ["configuration migration", "BFF", "deployment", "system design"]
+      "techStack": [
+        "React.js",
+        "Node.js",
+        "BFF",
+        "REST APIs",
+        "TypeScript",
+        "MUI v5",
+        "MABL"
+      ],
+      "impact": "Enabled seamless configuration migrations with improved reliability, accessibility, and reduced deployment issues.",
+      "keywords": [
+        "configuration migration",
+        "BFF",
+        "deployment",
+        "system design",
+        "accessibility",
+        "automation"
+      ]
     },
     {
       "name": "Interview Feedback Center",
@@ -91,11 +112,25 @@
         "Built scalable feedback dashboard",
         "Introduced Storybook with TypeScript for reusable components across teams",
         "Enabled downloadable candidate feedback summaries",
-        "Improved UI consistency and documentation"
+        "Built AI-driven short and detailed candidate summaries",
+        "Improved UI consistency and documentation",
+        "Worked on accessibility and localization improvements"
       ],
-      "techStack": ["React.js", "Storybook", "TypeScript", "MUI", "Redux"],
-      "impact": "Improved recruiter efficiency through reusable components and structured feedback workflows.",
-      "keywords": ["storybook", "dashboard", "recruitment", "UI components"]
+      "techStack": [
+        "React.js",
+        "Storybook",
+        "TypeScript",
+        "MUI",
+        "Redux"
+      ],
+      "impact": "Improved recruiter efficiency through reusable components, AI-powered summaries, and structured feedback workflows.",
+      "keywords": [
+        "storybook",
+        "dashboard",
+        "recruitment",
+        "UI components",
+        "AI summaries"
+      ]
     },
     {
       "name": "iApply (Admin Platform)",
@@ -108,9 +143,21 @@
         "Built BFF APIs for frontend-backend communication",
         "Ensured ATS synchronization for candidate progress and status"
       ],
-      "techStack": ["React.js", "Node.js", "BFF", "Java", "REST APIs", "TypeScript"],
+      "techStack": [
+        "React.js",
+        "Node.js",
+        "BFF",
+        "Java",
+        "REST APIs",
+        "TypeScript"
+      ],
       "impact": "Enabled unified application experience across external job platforms and ATS systems.",
-      "keywords": ["ATS", "Java APIs", "assessments", "integration"]
+      "keywords": [
+        "ATS",
+        "Java APIs",
+        "assessments",
+        "integration"
+      ]
     },
     {
       "name": "Marketplace Integrations (MPI)",
@@ -122,9 +169,57 @@
         "Implemented APIs to sync assessment status and results",
         "Maintained workflow consistency between systems"
       ],
-      "techStack": ["React.js", "Node.js", "BFF", "REST APIs", "TypeScript"],
+      "techStack": [
+        "React.js",
+        "Node.js",
+        "BFF",
+        "REST APIs",
+        "TypeScript"
+      ],
       "impact": "Improved candidate experience with seamless assessments and real-time ATS sync.",
-      "keywords": ["ATS", "assessments", "workflow sync"]
+      "keywords": [
+        "ATS",
+        "assessments",
+        "workflow sync"
+      ]
+    },
+    {
+      "name": "Learniverse AI",
+      "link": "https://github.com/c-akanksha/learniverse",
+      "problemStatement": "Learners need adaptive, personalized learning platforms that dynamically generate learning paths, quizzes, and AI-driven feedback instead of static course content.",
+      "myRole": "Full-stack developer responsible for designing and building the SPA, backend APIs, adaptive AI workflows, and learning experience.",
+      "whatIDid": [
+        "Built a responsive AI-powered learning SPA using React.js and MUI",
+        "Developed backend APIs for course generation, quizzes, feedback, and progress tracking",
+        "Implemented learner-based multi-course architecture using learner_id and course_id",
+        "Created adaptive AI-generated learning modules and quizzes",
+        "Built AI-powered feedback and progress analysis system",
+        "Designed modern glassmorphism-inspired UI/UX with loaders, modals, and analytics dashboards",
+        "Integrated progress insights including strengths, weak areas, trends, and recommendations",
+        "Implemented course management flows including authentication, course selection, and generation",
+        "Configured deployment for GitHub Pages"
+      ],
+      "techStack": [
+        "React.js",
+        "MUI",
+        "FastAPI",
+        "Python",
+        "MongoDB",
+        "REST APIs",
+        "OpenAI",
+        "AI/LLMs"
+      ],
+      "impact": "Created an end-to-end AI-powered adaptive learning platform with personalized course generation, intelligent assessments, and learner progress insights.",
+      "keywords": [
+        "AI learning",
+        "adaptive learning",
+        "LLM",
+        "React",
+        "FastAPI",
+        "MongoDB",
+        "OpenAI",
+        "progress analytics"
+      ]
     },
     {
       "name": "Tom Nook Prediction Shop (ML Project)",
@@ -138,9 +233,23 @@
         "Applied feature engineering and model tuning techniques",
         "Built end-to-end ML experimentation workflow in Python"
       ],
-      "techStack": ["Python", "Pandas", "NumPy", "Scikit-learn", "Machine Learning"],
+      "techStack": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Machine Learning"
+      ],
       "impact": "Strengthened practical understanding of machine learning model selection, evaluation, and real-world ML workflows.",
-      "keywords": ["machine learning", "python", "classification", "regression", "random forest", "decision tree", "scikit-learn"]
+      "keywords": [
+        "machine learning",
+        "python",
+        "classification",
+        "regression",
+        "random forest",
+        "decision tree",
+        "scikit-learn"
+      ]
     },
     {
       "name": "AskAkanksha AI",
@@ -154,24 +263,87 @@
         "Applied prompt engineering techniques like context grounding and role definition",
         "Improved response accuracy using structured prompts"
       ],
-      "techStack": ["React.js", "Node.js (BFF)", "OpenAI API", "Prompt Engineering"],
+      "techStack": [
+        "React.js",
+        "Node.js (BFF)",
+        "OpenAI API",
+        "Prompt Engineering"
+      ],
       "impact": "Transformed static portfolio into an AI-powered interactive experience for natural language exploration.",
-      "keywords": ["AI portfolio", "chatbot", "prompt engineering", "OpenAI", "LLM"]
+      "keywords": [
+        "AI portfolio",
+        "chatbot",
+        "prompt engineering",
+        "OpenAI",
+        "LLM"
+      ]
     }
   ],
   "skills": {
-    "frontend": ["React.js", "Redux", "HTML5", "CSS", "JavaScript", "TypeScript"],
-    "backend": ["Node.js", "BFF", "Java", "REST APIs"],
-    "ml_ai": ["Python", "Scikit-learn", "Machine Learning", "Prompt Engineering"],
-    "testing": ["Jest", "React Testing Library", "Postman", "MABL", "Axe (a11y)"],
-    "tools": ["MUI v5", "Storybook", "Veracode", "Git"],
-    "methodologies": ["Agile", "Scrum"],
-    "interests": ["AI exploration", "Prompt Engineering", "Machine Learning", "LLMs"]
+    "frontend": [
+      "React.js",
+      "Redux",
+      "HTML5",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "MUI"
+    ],
+    "backend": [
+      "Node.js",
+      "BFF",
+      "Java",
+      "REST APIs",
+      "FastAPI",
+      "MongoDB"
+    ],
+    "ml_ai": [
+      "Python",
+      "Scikit-learn",
+      "Machine Learning",
+      "Prompt Engineering",
+      "OpenAI APIs",
+      "GenAI",
+      "LLMs",
+      "AI Workflow Design"
+    ],
+    "testing": [
+      "Jest",
+      "React Testing Library",
+      "Postman",
+      "MABL",
+      "Axe (a11y)"
+    ],
+    "tools": [
+      "MUI v5",
+      "Storybook",
+      "Veracode",
+      "Git",
+      "GitHub Pages"
+    ],
+    "methodologies": [
+      "Agile",
+      "Scrum"
+    ],
+    "interests": [
+      "AI exploration",
+      "Prompt Engineering",
+      "Machine Learning",
+      "LLMs",
+      "GenAI",
+      "Agent Engineering"
+    ]
   },
   "certifications": [
     "Machine Learning Specialization",
     "MABL Skills Certification: Advanced",
-    "ChatGPT Prompt Engineering for Developers (DeepLearning.AI)"
+    "ChatGPT Prompt Engineering for Developers (DeepLearning.AI)",
+    "AI101 Certification - GlobalLogic (Completed on 04 May 2026)"
+  ],
+  "achievements": [
+    "3rd place winner in iCIMS Hackathon 2024 for AI-powered chatbot project",
+    "Completed AI101 course at GlobalLogic and received certification on 04 May 2026",
+    "Recognized with multiple Spotlight awards for engineering contributions"
   ],
   "publications": [
     {
