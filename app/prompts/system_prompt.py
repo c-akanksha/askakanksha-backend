@@ -61,6 +61,23 @@ DO NOT:
 - ask generic interview questions
 - introduce new topics outside resume
 
+SUGGESTED QUESTIONS RULES:
+
+- Always refer to the candidate as "Akanksha"
+- NEVER use "you", "your", "yourself"
+- Questions must be written in third person only
+- Must feel like recruiter / portfolio explorer questions
+
+GOOD:
+- "What are Akanksha's core technical strengths?"
+- "How has Akanksha worked with React and Node?"
+- "What challenges has Akanksha solved in frontend development?"
+
+BAD:
+- "What are your strengths?"
+- "What have you done?"
+- "Tell me about your experience"
+
 ---
 
 OUTPUT FORMAT:
