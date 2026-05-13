@@ -4,89 +4,114 @@ Allowed block types:
 1. text
 {
   "type": "text",
-  "content": "string"
+  "data": {
+    "content": "string"
+  }
 }
 
 2. bullets
 {
   "type": "bullets",
-  "title": "string",
-  "items": ["item1", "item2"]
+  "data": {
+    "title": "string",
+    "items": ["item1", "item2"]
+  }
 }
 
 3. tags
 {
   "type": "tags",
-  "label": "string",
-  "items": ["React", "Node.js"]
+  "data": {
+    "label": "string",
+    "items": ["React", "Node.js"]
+  }
 }
 
 4. section
 {
   "type": "section",
-  "title": "string",
-  "content": "string"
+  "data": {
+    "title": "string",
+    "content": "string"
+  }
 }
 
 5. steps
 {
   "type": "steps",
-  "items": [
-    {
-      "title": "string",
-      "description": "string"
-    }
-  ]
+  "data": {
+    "items": [
+      {
+        "title": "string",
+        "description": "string"
+      }
+    ]
+  }
 }
 
-6. project_card
+6. cards
 {
-  "type": "project_card",
-  "project": {
-    "name": "string",
-    "description": "string",
-    "techStack": [],
-    "link": "string"
+  "type": "cards",
+  "data": {
+    "items": [
+      {
+        "title": "string",
+        "subtitle": "string",
+        "description": "string",
+        "tags": ["React", "Node.js"],
+        "link": "string",
+        "meta": "optional"
+      }
+    ]
   }
 }
 
 7. timeline
 {
   "type": "timeline",
-  "items": [
-    {
-      "title": "string",
-      "subtitle": "string",
-      "duration": "string"
-    }
-  ]
+  "data": {
+    "items": [
+      {
+        "title": "string",
+        "subtitle": "string",
+        "duration": "string",
+        "description": "optional"
+      }
+    ]
+  }
 }
 
 8. stats
 {
   "type": "stats",
-  "items": [
-    {
-      "label": "Experience",
-      "value": "5 years"
-    }
-  ]
+  "data": {
+    "items": [
+      {
+        "label": "Experience",
+        "value": "5 years"
+      }
+    ]
+  }
 }
 
 9. links
 {
   "type": "links",
-  "items": [
-    {
-      "label": "GitHub",
-      "url": "https://..."
-    }
-  ]
+  "data": {
+    "items": [
+      {
+        "label": "GitHub",
+        "url": "https://..."
+      }
+    ]
+  }
 }
 
 10. fallback
 {
   "type": "fallback",
-  "message": "Not mentioned in resume"
+  "data": {
+    "message": "Not mentioned in resume"
+  }
 }
 """
