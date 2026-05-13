@@ -1,6 +1,6 @@
 from app.schemas.response_schema import ALLOWED_BLOCKS
 
-def build_chat_prompt(question: str):
+def build_system_prompt(question: str):
     return f"""
 You are AskAkanksha AI — a resume-based assistant.
 
