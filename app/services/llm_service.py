@@ -1,16 +1,17 @@
 import json
 import os
 
-from openai import OpenAI
 from dotenv import load_dotenv
+from openai import OpenAI
 
-from app.services.resume_loader import load_resume
-from app.prompts.system_prompt import build_system_prompt
 from app.prompts.chat_prompt import build_chat_prompt
+from app.prompts.system_prompt import build_system_prompt
+from app.services.resume_loader import load_resume
 
 load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
 
 def get_ai_response(question: str):
 
@@ -24,15 +25,9 @@ def get_ai_response(question: str):
         response_format={"type": "json_object"},
         temperature=0.3,
         messages=[
-            {
-                "role": "system",
-                "content": system_prompt
-            },
-            {
-                "role": "user",
-                "content": user_prompt
-            }
-        ]
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ],
     )
 
     content = response.choices[0].message.content
@@ -43,11 +38,6 @@ def get_ai_response(question: str):
         return {
             "intent": "fallback",
             "title": "Error",
-            "message": [
-                {
-                    "type": "fallback",
-                    "message": "Unable to parse response"
-                }
-            ],
-            "suggested_questions": []
+            "message": [{"type": "fallback", "message": "Unable to parse response"}],
+            "suggested_questions": [],
         }

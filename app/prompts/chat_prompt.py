@@ -1,5 +1,6 @@
 from app.schemas.response_schema import ALLOWED_BLOCKS
 
+
 def build_chat_prompt(question: str):
     return f"""
 User Question:

@@ -1,7 +1,8 @@
 import uvicorn
 from fastapi import FastAPI
-from app.routes.chat import router as chat_router
 from fastapi.middleware.cors import CORSMiddleware
+
+from app.routes.chat import router as chat_router
 
 app = FastAPI(title="AskAkanksha AI")
 
@@ -24,9 +25,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 @app.get("/")
 def home():
     return {"message": "AskAkanksha is up and running!"}
+
 
 app.include_router(chat_router, prefix="/api")
 
