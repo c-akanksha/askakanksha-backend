@@ -9,5 +9,4 @@ class ChatRequest(BaseModel):
 
 @router.post("/chat")
 def chat(req: ChatRequest):
-    response = get_ai_response(req.question)
-    return {"answer": response}
+    return get_ai_response(req.question)

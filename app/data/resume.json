@@ -7,7 +7,135 @@
     "github": "https://github.com/c-akanksha",
     "resume": "https://drive.google.com/file/d/1E5tcxU4raykYGl8TqAD2RJ14p8RCbnmP/view?usp=sharing"
   },
+
   "careerObjective": "Software Engineer with 5 years of experience in Front-End and BFF development, specializing in React.js, TypeScript, and scalable web applications. Experienced in building performant, accessible (WCAG), and user-centric solutions using REST APIs across Node.js, BFF, and Java services. Skilled in leading projects, mentoring developers, driving Agile delivery, and actively exploring GenAI, agent engineering, prompt engineering, and AI-powered product experiences.",
+
+  "engineeringPhilosophy": {
+    "priorities": [
+      "Performance",
+      "Accessibility",
+      "User Experience",
+      "Maintainable Architecture",
+      "Clean Code"
+    ],
+    "principles": [
+      "Build applications that users genuinely enjoy using",
+      "Focus on scalable and maintainable frontend systems",
+      "Prioritize accessibility and inclusive design from the beginning",
+      "Design clean and reusable code structures to reduce long-term maintenance effort",
+      "Balance feature delivery with usability and engineering quality"
+    ]
+  },
+
+  "learningJourney": {
+    "aiJourney": {
+      "origin": "Interest in AI started during participation in the iCIMS Hackathon where the team worked on an AI-powered project",
+      "approach": [
+        "Focused on self-learning through courses and hands-on experimentation",
+        "Applied learning through practical side projects instead of only theoretical study",
+        "Continuously explored AI-powered user experiences and conversational systems"
+      ],
+      "learningPath": [
+        "Completed Machine Learning Specialization",
+        "Completed AI-101 certification at GlobalLogic as AI Associate",
+        "Currently learning Deep Learning concepts",
+        "Currently pursuing AI-200 focused on Generative AI"
+      ],
+      "projectApplications": [
+        {
+          "project": "Tom Nook Prediction Shop",
+          "purpose": "Applied machine learning concepts and model experimentation"
+        },
+        {
+          "project": "Learniverse AI",
+          "purpose": "Applied GenAI concepts, adaptive learning workflows, and AI-powered content generation"
+        },
+        {
+          "project": "AskAkanksha AI",
+          "purpose": "Applied prompt engineering and conversational AI architecture concepts"
+        }
+      ],
+      "motivation": [
+        "Enjoys learning by building real-world projects",
+        "Interested in combining AI with frontend and user experience design",
+        "Exploring AI-assisted engineering and adaptive product experiences"
+      ]
+    }
+  },
+
+  "futureInterests": {
+    "aiFocusAreas": [
+      "AI Agents",
+      "Generative AI",
+      "Conversational Interfaces",
+      "AI-assisted Development",
+      "Adaptive User Experiences"
+    ],
+    "motivation": [
+      "Excited by the ability of AI agents to perform complex tasks when guided with effective prompts",
+      "Interested in building intelligent systems that combine AI with real-world user experiences",
+      "Enjoys experimenting with AI-powered applications and applying learning through hands-on projects"
+    ],
+    "futureGoals": [
+      "Explore agentic workflows and autonomous task execution systems",
+      "Build AI-powered products that improve productivity and user interaction",
+      "Continue combining frontend engineering expertise with AI-driven experiences"
+    ]
+  },
+
+  "accessibilityPhilosophy": {
+    "motivation": [
+      "Believes applications should be usable by everyone regardless of accessibility needs",
+      "Treats accessibility as a core part of frontend engineering rather than an afterthought"
+    ],
+    "practices": [
+      "Actively builds accessible frontend experiences following WCAG standards",
+      "Resolves accessibility issues and usability bugs as part of regular development workflows",
+      "Focuses on inclusive UI/UX design while maintaining performance and usability"
+    ],
+    "achievements": [
+      "Consistently ensured accessibility compliance across projects",
+      "Resolved critical accessibility issues raised during development and testing"
+    ]
+  },
+
+  "engineeringImpact": {
+    "delivery": [
+      "Consistently ensured timely delivery of both individual and team commitments as Scrum Master and developer",
+      "Frequently completed planned deliverables ahead of schedule through proactive coordination and execution"
+    ],
+    "supportAndReliability": [
+      "Actively resolved support tickets quickly and ensured issues were not left open for extended periods",
+      "Took ownership of production and build issues to maintain stable delivery workflows"
+    ],
+    "qualityFocus": [
+      "Maintained strong code quality standards with consistently healthy Sonar metrics",
+      "Prioritized clean code practices, maintainability, and engineering best practices during development and code reviews"
+    ],
+    "accessibilityImpact": [
+      "Proactively addressed accessibility issues resulting in minimal unresolved accessibility defects within the team",
+      "Integrated accessibility considerations early in the development lifecycle instead of treating them as post-release fixes"
+    ]
+  },
+
+  "leadershipExamples": [
+    {
+      "focus": "Engineering Quality and Team Enablement",
+      "situation": "Frontend and BFF contributions across teams required consistent coding standards and reliable delivery workflows",
+      "actions": [
+        "Performed detailed reviews for SPA and BFF pull requests",
+        "Guided developers on best practices, maintainable architecture, and clean coding approaches",
+        "Proactively communicated implementation improvements and engineering standards",
+        "Took ownership of resolving blocked builds and delivery issues to maintain development velocity"
+      ],
+      "result": [
+        "Improved code quality and maintainability across projects",
+        "Encouraged consistent engineering practices within the team",
+        "Helped maintain stable development and deployment workflows"
+      ]
+    }
+  ],
+
   "education": [
     {
       "degree": "Bachelor of Engineering (CSE)",
@@ -22,6 +150,7 @@
       "institution": "Vidyodaya Public School, Udupi"
     }
   ],
+
   "experience": [
     {
       "company": "GlobalLogic India",
@@ -72,6 +201,7 @@
       ]
     }
   ],
+
   "projects": [
     {
       "name": "Config Transport & Content Transport",
@@ -95,6 +225,26 @@
         "MABL"
       ],
       "impact": "Enabled seamless configuration migrations with improved reliability, accessibility, and reduced deployment issues.",
+      "architecture": {
+        "frontend": "React.js SPA",
+        "backend": "Node.js BFF + REST APIs",
+        "workflow": "Environment-based configuration migration system",
+        "focusAreas": [
+          "Reliability",
+          "Accessibility",
+          "Deployment consistency"
+        ]
+      },
+      "technicalDecisions": [
+        "Avoided complex full rollback implementation for partially completed migrations to reduce operational risk",
+        "Implemented controlled failure handling where transport operations stop immediately upon failure",
+        "Preserved successfully transported configurations while leaving remaining configurations unchanged to maintain predictable system state"
+      ],
+      "challenges": [
+        "Designing reliable configuration transport workflows across environments while handling partial migration failures",
+        "Evaluating rollback strategies for long-running configuration transport operations",
+        "Maintaining system consistency when transport processes fail mid-execution"
+      ],
       "keywords": [
         "configuration migration",
         "BFF",
@@ -104,6 +254,7 @@
         "automation"
       ]
     },
+
     {
       "name": "Interview Feedback Center",
       "problemStatement": "Recruiters needed a centralized system to manage and review candidate interview feedback efficiently.",
@@ -124,6 +275,23 @@
         "Redux"
       ],
       "impact": "Improved recruiter efficiency through reusable components, AI-powered summaries, and structured feedback workflows.",
+      "technicalDecisions": [
+        "Improved cross-team collaboration through structured discussions, reusable documentation, and component standardization",
+        "Used Storybook to create shared visibility and consistency across UI components for distributed teams",
+        "Focused on iterative delivery and adaptable workflows to accommodate evolving stakeholder feedback"
+      ],
+      "challenges": [
+        "Coordinating product and technical decisions across distributed teams working in different time zones",
+        "Managing evolving stakeholder requirements from US-based teams during active development cycles",
+        "Keeping engineering teams aligned while adapting to changing product expectations and feedback"
+      ],
+      "leadershipExamples": [
+        {
+          "situation": "Requirements and design expectations evolved frequently after discussions with US stakeholders",
+          "action": "Collaborated closely with teams across time zones, clarified expectations, and aligned implementation decisions through continuous communication",
+          "result": "Improved coordination between engineering and stakeholders while maintaining delivery momentum"
+        }
+      ],
       "keywords": [
         "storybook",
         "dashboard",
@@ -132,6 +300,7 @@
         "AI summaries"
       ]
     },
+
     {
       "name": "iApply (Admin Platform)",
       "problemStatement": "Candidates applying through external job platforms needed unified assessment workflows with ATS synchronization.",
@@ -159,6 +328,7 @@
         "integration"
       ]
     },
+
     {
       "name": "Marketplace Integrations (MPI)",
       "problemStatement": "Candidates needed seamless job-specific assessment experience with real-time ATS synchronization.",
@@ -183,6 +353,7 @@
         "workflow sync"
       ]
     },
+
     {
       "name": "Learniverse AI",
       "link": "https://github.com/c-akanksha/learniverse",
@@ -210,6 +381,29 @@
         "AI/LLMs"
       ],
       "impact": "Created an end-to-end AI-powered adaptive learning platform with personalized course generation, intelligent assessments, and learner progress insights.",
+      "architecture": {
+        "frontend": "React.js SPA with MUI",
+        "backend": "FastAPI",
+        "database": "MongoDB",
+        "aiLayer": "OpenAI-powered adaptive content and quiz generation",
+        "deployment": "GitHub Pages"
+      },
+      "technicalDecisions": [
+        "Focused on building a stable MVP with complete user flows instead of shipping incomplete experimental features",
+        "Prioritized reusable backend APIs and modular frontend architecture for future extensibility",
+        "Implemented learner_id and course_id based architecture to support scalable multi-course learning experiences"
+      ],
+      "challenges": [
+        "Balancing multiple evolving product ideas while maintaining focus on delivering a complete and functional platform",
+        "Avoiding partially implemented AI features by prioritizing end-to-end usable workflows",
+        "Designing adaptive learning experiences while keeping the system maintainable and scalable"
+      ],
+      "aiFeatures": [
+        "Adaptive AI-generated learning modules",
+        "AI-powered quizzes and feedback generation",
+        "Progress analysis and recommendations",
+        "Personalized learning workflows"
+      ],
       "keywords": [
         "AI learning",
         "adaptive learning",
@@ -221,6 +415,7 @@
         "progress analytics"
       ]
     },
+
     {
       "name": "Tom Nook Prediction Shop (ML Project)",
       "link": "https://c-akanksha.github.io/tom-nooks-prediction-shop/",
@@ -251,6 +446,7 @@
         "scikit-learn"
       ]
     },
+
     {
       "name": "AskAkanksha AI",
       "link": "https://c-akanksha.github.io/askakanksha/",
@@ -266,10 +462,34 @@
       "techStack": [
         "React.js",
         "Node.js (BFF)",
+        "FastAPI",
         "OpenAI API",
         "Prompt Engineering"
       ],
       "impact": "Transformed static portfolio into an AI-powered interactive experience for natural language exploration.",
+      "architecture": {
+        "frontend": "React.js SPA",
+        "backend": "FastAPI + OpenAI integration",
+        "data": "Structured JSON-based resume context",
+        "responseDesign": "Message-block based conversational rendering",
+        "deployment": "GitHub Pages + Render"
+      },
+      "technicalDecisions": [
+        "Implemented structured prompt engineering with strict JSON response contracts",
+        "Designed frontend-friendly conversational message blocks instead of tightly coupled UI schemas",
+        "Separated intent handling from rendering logic to improve scalability and maintainability"
+      ],
+      "challenges": [
+        "Ensuring consistent structured JSON responses from LLM outputs",
+        "Handling unpredictable AI-generated response formats for stable frontend rendering",
+        "Designing reusable message-block response schemas for scalable SPA integration"
+      ],
+      "aiFeatures": [
+        "Prompt grounding",
+        "Structured JSON generation",
+        "Intent-aware conversational responses",
+        "Frontend-oriented AI response rendering"
+      ],
       "keywords": [
         "AI portfolio",
         "chatbot",
@@ -279,6 +499,7 @@
       ]
     }
   ],
+
   "skills": {
     "frontend": [
       "React.js",
@@ -334,17 +555,20 @@
       "Agent Engineering"
     ]
   },
+
   "certifications": [
     "Machine Learning Specialization",
     "MABL Skills Certification: Advanced",
     "ChatGPT Prompt Engineering for Developers (DeepLearning.AI)",
     "AI101 Certification - GlobalLogic (Completed on 04 May 2026)"
   ],
+
   "achievements": [
     "3rd place winner in iCIMS Hackathon 2024 for AI-powered chatbot project",
     "Completed AI101 course at GlobalLogic and received certification on 04 May 2026",
     "Recognized with multiple Spotlight awards for engineering contributions"
   ],
+
   "publications": [
     {
       "title": "A Real-Time IoT Based Arrhythmia Classifier Using Convolutional Neural Networks",
