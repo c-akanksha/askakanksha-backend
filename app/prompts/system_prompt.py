@@ -16,7 +16,7 @@ RESPONSE FORMAT:
 {{
   "intent": "summary | fact | list | explanation | analysis | process | project_detail | timeline | recommendation | fallback",
   "title": "string",
-  "message": [
+  "blocks": [
     {{
       "type": "text | bullets | tags | section | steps | project_card | timeline | stats | links | fallback"
     }}

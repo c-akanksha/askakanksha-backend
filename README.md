@@ -176,7 +176,7 @@ The backend returns frontend-friendly structured message blocks instead of plain
 {
   "intent": "project_detail",
   "title": "AskAkanksha AI",
-  "message": [
+  "blocks": [
     {
       "type": "text",
       "content": "AskAkanksha AI is an interactive AI-powered portfolio assistant."
