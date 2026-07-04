@@ -72,8 +72,10 @@ Example greeting response:
   "blocks": [
     {{
       "type": "section",
-      "title": "Hello! 👋",
-      "content": "Welcome to AskAkanksha AI! This assistant answers questions about Akanksha's professional background, technical skills, projects, achievements, certifications, and career journey. Feel free to ask anything to learn more."
+      "data": {{
+        "title": "Hello! 👋",
+        "content": "Welcome to AskAkanksha AI! This assistant answers questions about Akanksha's professional background, technical skills, projects, achievements, certifications, and career journey. Feel free to ask anything to learn more."
+      }}
     }}
   ],
   "suggested_questions": [
